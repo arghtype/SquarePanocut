@@ -37,6 +37,6 @@ while i < count:
     print("Cropping Part " + str(i) + ":   " +str(left) + ", " +str(top) + ", " +str(right) + ", " + str(low))
     area = (left, top, right, low)
     part = image.crop(area)
-    part.save("part" + str(i) + ".jpg")
+    part.save("part" + str(i) + ".jpg", quality = 100)
     i += 1
 print("Success!")
