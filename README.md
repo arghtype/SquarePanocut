@@ -3,7 +3,9 @@ SquarePanocut allows to cut panorama into squares (1x1) or portraits (4x5). This
 **Requirements**
 
   `brew install python3`
-  
+ 
+  `brew install libtiff libjpeg webp little-cms2`  
+    
   `pip3 install pillow`
 
 **Usage**
